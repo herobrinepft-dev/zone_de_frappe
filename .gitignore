@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Données du joueur (créées au premier lancement)
+config/user_settings.json
+config/profile.json
+
+# Sorties générées
+screenshots/
+tests/output/
+tests/autotest.log
+
+# Système
+.DS_Store
+Thumbs.db

@@ -1,0 +1,75 @@
+{
+  "xp": 300,
+  "credits": 580,
+  "owned_weapons": [
+    "pulsar"
+  ],
+  "weapon": "pulsar",
+  "upgrades": {
+    "pulsar": {
+      "puissance": 0,
+      "cadence": 0,
+      "refroidissement": 0
+    },
+    "faucon": {
+      "puissance": 0,
+      "cadence": 0,
+      "refroidissement": 0
+    },
+    "tempete": {
+      "puissance": 0,
+      "cadence": 0,
+      "refroidissement": 0
+    }
+  },
+  "owned_finishes": [
+    "graphite"
+  ],
+  "finish": "graphite",
+  "owned_beams": [
+    "ambre",
+    "cyan"
+  ],
+  "beam": "ambre",
+  "operation": "midi",
+  "difficulty": "Vétéran",
+  "stats": {
+    "games": 2,
+    "victories": 0,
+    "drones": 0,
+    "shots": 40,
+    "hits": 3,
+    "best_score": 0,
+    "best_wave": 1,
+    "time_played": 54.86900000000174,
+    "distance": 291.87202977382015,
+    "damage_taken": 100.0,
+    "data_cores": 0,
+    "beacons": 0,
+    "kills_by_type": {
+      "eclaireur": 0,
+      "sentinelle": 0,
+      "blinde": 0
+    }
+  },
+  "last_result": {
+    "victory": false,
+    "score": 0,
+    "wave": 1,
+    "kills": 0,
+    "shots": 35,
+    "hits": 3,
+    "accuracy": 0.08571428571428572,
+    "time": 44.140000000001734,
+    "distance": 231.98347401567435,
+    "damage_taken": 100.0,
+    "data_cores": 0,
+    "beacons": 0,
+    "xp": 150,
+    "credits": 40,
+    "operation": "MIDI ÉCLATANT",
+    "difficulty": "Vétéran",
+    "level_up": false,
+    "new_level": 1
+  }
+}

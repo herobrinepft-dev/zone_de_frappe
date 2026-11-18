@@ -1,0 +1,102 @@
+﻿pygame 2.6.1 (SDL 2.28.4, Python 3.13.14)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+[ZONE DE FRAPPE] chargement 2.4 s — 724886 triangles statiques, 1560 volumes de collision
+
+=== ZONE DE FRAPPE — TEST AUTOMATIQUE ===
+  [OK ] démarrage et chargement  2.4 s
+  [OK ] shaders compilés  
+  [OK ] état initial = menu principal  
+  [OK ] 01_menu_accueil : scène 3D visible  lum. moy=0.348 écart=0.190
+  [OK ] 01_menu_accueil : interface transparente (couverture 43% ≤ 75%)  couverture=0.425
+  [OK ] menu : bouton ACCUEIL  page=ACCUEIL
+  [OK ] menu : bouton JOUER  page=JOUER
+  [OK ] menu : bouton ARMURERIE  page=ARMURERIE
+  [OK ] 02_menu_2_armurerie : scène 3D visible  lum. moy=0.246 écart=0.234
+  [OK ] 02_menu_2_armurerie : interface transparente (couverture 30% ≤ 85%)  couverture=0.304
+  [OK ] armurerie : sélection d'un émetteur  
+  [OK ] armurerie : achat d'une finition (crédits débités)  crédits 500 -> 100
+  [OK ] armurerie : couleur de faisceau  
+  [OK ] menu : bouton OPÉRATIONS  page=OPÉRATIONS
+  [OK ] opérations : verrouillage par niveau  
+  [OK ] opérations : sélection  
+  [OK ] opérations : difficulté  
+  [OK ] menu : bouton PARAMÈTRES  page=PARAMÈTRES
+  [OK ] paramètres : onglet 1  
+  [OK ] paramètres : onglet 2  
+  [OK ] paramètres : onglet 0  
+  [OK ] paramètres : interrupteur  
+  [OK ] menu : bouton STATISTIQUES  page=STATISTIQUES
+  [OK ] menu : QUITTER ouvre la confirmation  
+  [OK ] menu : ANNULER ferme la confirmation  
+  [OK ] DÉPLOYER lance la partie  
+  [OK ] 04_jeu_depart : scène 3D visible  lum. moy=0.505 écart=0.232
+  [OK ] 04_jeu_depart : interface transparente (couverture 7% ≤ 30%)  couverture=0.073
+  [OK ] HUD : centre de l'écran dégagé  0.0
+  [OK ] joueur au sol au départ  y=0.15
+  [OK ] test : trajectoire dégagée trouvée  
+  [OK ] contrôles : avancer (Z/W)  5.22 m en 1 s
+  [OK ] contrôles : sprint plus rapide que la course  7.90 m vs 5.22 m
+  [OK ] contrôles : pas latéral (D)  3.02 m
+  [OK ] contrôles : saut  hauteur 1.20 m
+  [OK ] gravité : retour au sol  y=0.00
+  [OK ] contrôles : rotation de la vue (souris)  Δlacet=0.66 rad
+  [OK ] contrôles : tangage de la vue  tangage=-0.26
+  [OK ] contrôles : accroupi  hauteur=1.15
+  [OK ] collisions : impossible de traverser un immeuble  z=-156.53 façade=-157.00
+  [OK ] collisions : glissement le long du mur  dx=2.80
+  [OK ] collisions : on tient debout sur un toit  y=17.80 toit=17.80
+  [OK ] tir : des impulsions sont émises  19 tirs
+  [OK ] tir : le drone subit des dégâts  PV 110 -> -10
+  [OK ] tir : particules (faisceaux, étincelles)  56 particules
+  [OK ] 06_tir : scène 3D visible  lum. moy=0.524 écart=0.212
+  [OK ] 06_tir : interface transparente (couverture 8% ≤ 30%)  couverture=0.083
+  [OK ] vagues : la vague 1 démarre  vague=1 état=active
+  [OK ] partie toujours en cours pendant l'observation  
+  [OK ] drones : apparition  5 drones
+  [OK ] 07_combat : scène 3D visible  lum. moy=0.441 écart=0.248
+  [OK ] 07_combat : interface transparente (couverture 7% ≤ 30%)  couverture=0.067
+  [OK ] drones : tirs d'orbes ennemis  dégâts reçus pendant l'observation : 0
+  [OK ] mission défense : balise placée  
+  [OK ] mission défense : progression de capture dans la zone  0.04 -> 0.18
+  [OK ] mission défense : balise capturée, vague terminée  
+  [OK ] mission collecte : modules placés  3 modules
+  [OK ] mission collecte : modules ramassés  
+  [OK ] mission collecte : vague terminée  
+  [OK ] pause : Échap ouvre le menu pause  
+  [OK ] 08_pause : scène 3D visible  lum. moy=0.263 écart=0.224
+  [OK ] 08_pause : interface transparente (couverture 70% ≤ 100%)  couverture=0.696
+  [OK ] pause : PARAMÈTRES  
+  [OK ] pause : REPRENDRE  
+  [OK ] redimensionnement 1280x720  
+  [OK ] 09_resize_1280x720 : scène 3D visible  lum. moy=0.263 écart=0.224
+  [OK ] 09_resize_1280x720 : interface transparente (couverture 6% ≤ 30%)  couverture=0.063
+  [OK ] redimensionnement 1024x768  
+  [OK ] 09_resize_1024x768 : scène 3D visible  lum. moy=0.248 écart=0.218
+  [OK ] 09_resize_1024x768 : interface transparente (couverture 8% ≤ 30%)  couverture=0.082
+  [OK ] redimensionnement 1600x900  
+  [OK ] 09_resize_1600x900 : scène 3D visible  lum. moy=0.263 écart=0.224
+  [OK ] 09_resize_1600x900 : interface transparente (couverture 5% ≤ 30%)  couverture=0.053
+  [OK ] 10_qualite_bas : scène 3D visible  lum. moy=0.251 écart=0.202
+  [OK ] 10_qualite_bas : interface transparente (couverture 4% ≤ 30%)  couverture=0.044
+  [OK ] qualité Bas : fluidité  129 FPS
+  [OK ] 10_qualite_moyen : scène 3D visible  lum. moy=0.259 écart=0.223
+  [OK ] 10_qualite_moyen : interface transparente (couverture 4% ≤ 30%)  couverture=0.044
+  [OK ] qualité Moyen : fluidité  98 FPS
+  [OK ] 10_qualite_eleve : scène 3D visible  lum. moy=0.262 écart=0.223
+  [OK ] 10_qualite_eleve : interface transparente (couverture 4% ≤ 30%)  couverture=0.044
+  [OK ] qualité Élevé : fluidité  92 FPS
+  [OK ] 10_qualite_ultra : scène 3D visible  lum. moy=0.262 écart=0.223
+  [OK ] 10_qualite_ultra : interface transparente (couverture 4% ≤ 30%)  couverture=0.044
+  [OK ] qualité Ultra : fluidité  72 FPS
+  [OK ] défaite : partie terminée  
+  [OK ] résultats : profil mis à jour  
+  [OK ] résultats : MENU PRINCIPAL  
+  [OK ] 12_operation_nuit : scène 3D visible  lum. moy=0.180 écart=0.162
+  [OK ] 12_operation_nuit : interface transparente (couverture 4% ≤ 30%)  couverture=0.044
+  [OK ] 12_operation_orage : scène 3D visible  lum. moy=0.458 écart=0.188
+  [OK ] 12_operation_orage : interface transparente (couverture 7% ≤ 30%)  couverture=0.074
+  [OK ] 12_operation_aube : scène 3D visible  lum. moy=0.414 écart=0.224
+  [OK ] 12_operation_aube : interface transparente (couverture 6% ≤ 30%)  couverture=0.062
+  [OK ] menu : QUITTER ferme le jeu  
+
+=== RÉSULTAT : 95/95 tests réussis — FPS moyen 83.0 ===
